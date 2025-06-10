@@ -1,0 +1,113 @@
+name: Jonathan Hernán Guerrero Jiménez
+contactInfo:
+  address: Alajuela, Costa Rica
+  phone: (+506) 6020-2016
+  email: yo.nathan421@gmail.com
+  linkedIn:
+    url: https://www.linkedin.com/in/jonathan-guerrero-jiménez-787393105/
+    label: linkedin.com/in/jonathan-guerrero-jiménez-787393105
+profile: Ingeniero en Software, y Electrónica, con experiencia en desarrollo web, y sistemas automatizados. Apasionado por la automatización y el desarrollo de soluciones eficientes. Excelente trabajando en equipo, y con una mentalidad orientada a resultados. Aprendizaje rápido y adaptable a nuevas tecnologías.
+experience:
+  - organization: Wipro S.A.
+    role: Service Desk Analyst
+    startDate: Enero 2023
+    endDate: Mayo 2025
+    responsibilities: |
+      - Soporte TI para sitios web, aplicaciones de escritorio, contraseñas y credenciales.
+      - Soporte telefónico bilingüe (español e inglés) a empleados de Citi.
+      - Aprendizage continuo de nuevas tecnologías, plataformas, y herramientas internas.
+  - organization: Auditmation
+    role: Desarrollador Backend
+    startDate: Septiembre 2020
+    endDate: Mayo 2022
+    responsibilities: |
+      - Desarrollo de librerías internas en TypeScript con enfoque en calidad de código mediante pruebas, linting y mejoras de legibilidad.
+      - Asistir a reuniones del equipo Scrum para discutir avances y temas técnicos.
+      - Integración de plataformas en la nube como AWS, Azure, GCP, Zoho, entre otras.
+      - Subir código a repositorios de GitHub, usé GitHub Actions para asegurar calidad y integré herramientas de análisis estático.
+  - organization: Sustratos de la Ribera S.A.
+    role: Ingeniero Electrónico
+    startDate: Enero 2016
+    endDate: Septiembre 2020
+    responsibilities: |
+      - Monitoreo y control de la operación de sistemas automatizados de un biodigestor para asegurar rendimiento óptimo.
+      - Calibración de sensores, y mantenimiento de sistemas eléctricos, neumáticos e hidráulicos.
+      - Diagnóstico, y resolución de problemas de automatización mediante programación de PLC y reconfiguración del sistema.
+      - Realizar análisis químicos de sistemas de biogás.
+  - organization: Ingram Micro
+    role: Técnico Electrónico
+    startDate: Febrero 2013
+    endDate: Enero 2014
+    responsibilities: |
+      - Diagnosticar y reparar hardware de teléfonos celulares.
+      - Ensamblar y desensamblar dispositivos y realizar actualizaciones de firmware.
+education:
+  - institution: Universidad Técnica Nacional
+    program: Ingeniería en Software
+    degree: Bachillerato
+    startDate: Enero 2014
+    endDate: Diciembre 2019
+  - institution: Universidad Técnica Nacional
+    program: Ingeniería Electrónica
+    degree: Bachillerato
+    startDate: Enero 2011
+    endDate: Noviembre 2015
+courses:
+  - institution: Udemy
+    program: React de cero a experto (Hooks y MERN)
+    startDate: Febrero 2024
+    endDate: Marzo 2024
+  - institution: Udemy
+    program: AWS IoT Core
+    startDate: Diciembre 2022
+    endDate: Diciembre 2022
+  - institution: Udemy
+    program: Guía completa para construir aplicaciones serverless en AWS
+    startDate: Mayo 2022
+    endDate: Junio 2022
+  - institution: Udemy
+    program: Node de cero a experto
+    startDate: Octubre 2021
+    endDate: Octubre 2021
+  - institution: Universidad Técnica Nacional
+    program: 'Cisco networking academy cybersecurity essentials'
+    startDate: Julio 2018
+    endDate: Julio 2018
+  - institution: Universidad Técnica Nacional
+    program: 'CCNA Switching & Routing: Introducción a redes'
+    startDate: Mayo 2015
+    endDate: Agosto 2015
+projects:
+  - organization: Independiente
+    title: Sistema de control de portón residencial
+    startDate: Febrero 2023
+    endDate: Junio 2023
+    description: |
+      Desarrollé una aplicación nativa Android que se comunica con un backend serverless en AWS y controla un microcontrolador Wi-Fi (programado en C++) mediante AWS IoT Core para operar remotamente un portón en casa.
+  - organization: Sustratos de la Ribera
+    title: Monitoreo de datos PLC en tiempo real
+    startDate: Septiembre 2019
+    endDate: Diciembre 2019
+    description: |
+      Desarrollé una aplicación web con Vue (frontend) y ASP.NET (backend) que leía datos desde un PLC mediante un servicio Windows.
+      El sistema permite monitoreo remoto en tiempo real mostrando los datos en una interfaz amigable.
+  - organization: Independiente
+    title: Aplicación de gestión de membresías para gimnasio
+    startDate: Octubre 2018
+    endDate: Enero 2019
+    description: |
+      Desarrollé una aplicación de escritorio en C# para un gimnasio, con funciones de registro de clientes, seguimiento de pagos y gestión de acceso mediante cerradura eléctrica y sensor de huellas.
+skills:
+  - label: Idiomas
+    description: |
+      Español: Nativo
+      Inglés: B2
+  - label: Lenguajes y frameworks
+    description: JavaScript, C#, C++, Java, PHP, Node, React, Vue, Redux, ASP.NET y Laravel.
+  - label: Bases de datos
+    description: SQL Server, MongoDB y MySQL
+  - label: Herramientas
+    description: GIT, GitHub Actions, Jira, AWS, GCP, Zoho y OpenApi.
+  - label: Sistemas embebidos
+    description: |
+      Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.
