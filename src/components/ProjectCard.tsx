@@ -18,7 +18,7 @@ function ProjectCard({
   return (
 		<div className="section-content">
 			<div className="detail-content">
-				<div className="side-content">
+				<div>
 					<h4>{title} - {organization}</h4>
 				</div>
 				<RightSide

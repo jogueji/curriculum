@@ -8,7 +8,7 @@ function RightSide({
   endDate,
 }: RightSideProps) {
   return (
-		<div className="side-content" style= {{textAlign: 'right'}}>
+		<div style= {{textAlign: 'right'}}>
 			<h4>{startDate} - {endDate}</h4>
 		</div>
   )

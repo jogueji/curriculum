@@ -11,7 +11,7 @@ function EducationCard({
   return (
 		<div className="section-content">
 			<div className="detail-content">
-				<div className="side-content">
+				<div>
 					<h4>{degree ? `${degree} of ${program}` : `${program}`}, {institution}</h4>
 				</div>
 				<RightSide

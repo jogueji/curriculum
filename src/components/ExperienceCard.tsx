@@ -11,7 +11,7 @@ function ExperienceCard({
   return (
 		<div className="section-content">
 			<div className="detail-content">
-				<div className="side-content">
+				<div>
 					<h4>{role} - {organization}</h4>
 				</div>
 				<RightSide
