@@ -21,10 +21,13 @@ experience:
     startDate: Septiembre 2020
     endDate: Mayo 2022
     responsibilities: |
-      - Desarrollo de librerías internas en TypeScript con enfoque en calidad de código mediante pruebas, linting y mejoras de legibilidad.
+      - Desarrollo de librerías internas en Node.js con enfoque en calidad de código mediante pruebas, linting y mejoras de legibilidad.
       - Asistir a reuniones del equipo Scrum para discutir avances y temas técnicos.
-      - Integración de plataformas en la nube como AWS, Azure, GCP, Zoho, entre otras.
-      - Subir código a repositorios de GitHub, usé GitHub Actions para asegurar calidad y integré herramientas de análisis estático.
+      - Diseño y consumo de RESTful APIs siguiendo principios de microservicios para dar soporte a integraciones internas y de terceros.
+      - Implementación de plataformas en la nube, trabajando principalmente con AWS.
+      - Implementación de almacenamiento y modelado de datos con PostgreSQL en distintos servicios distribuidos.
+      - Despliegue de contenedores Docker con APIs GraphQL para herramientas internas y comunicación entre servicios.
+      - Gestión de repositorios en GitHub, incluyendo la integración de GitHub Actions y herramientas de análisis estático para garantizar la calidad del código.
   - organization: Sustratos de la Ribera S.A.
     role: Ingeniero Electrónico
     startDate: Enero 2016
@@ -34,6 +37,7 @@ experience:
       - Calibración de sensores, y mantenimiento de sistemas eléctricos, neumáticos e hidráulicos.
       - Diagnóstico, y resolución de problemas de automatización mediante programación de PLC y reconfiguración del sistema.
       - Realizar análisis químicos de sistemas de biogás.
+      - Conexión de motores trifásicos y monofásicos a la red eléctrica, incluyendo instalación y configuración de arrancadores suaves y variadores de velocidad.
   - organization: Ingram Micro
     role: Técnico Electrónico
     startDate: Febrero 2013
@@ -83,31 +87,31 @@ projects:
     startDate: Febrero 2023
     endDate: Junio 2023
     description: |
-      Desarrollé una aplicación nativa Android que se comunica con un backend serverless en AWS y controla un microcontrolador Wi-Fi (programado en C++) mediante AWS IoT Core para operar remotamente un portón en casa.
+      Desarrollé una aplicación nativa para Android en Kotlin, integrada con un backend serverless construido con Node.js y MongoDB sobre AWS Lambda. La aplicación se comunica con un microcontrolador Wi-Fi (programado en C++) a través de AWS IoT Core para controlar de forma remota una portón de casa.
   - organization: Sustratos de la Ribera
     title: Monitoreo de datos PLC en tiempo real
     startDate: Septiembre 2019
     endDate: Diciembre 2019
     description: |
-      Desarrollé una aplicación web con Vue (frontend) y ASP.NET (backend) que leía datos desde un PLC mediante un servicio Windows.
-      El sistema permite monitoreo remoto en tiempo real mostrando los datos en una interfaz amigable.
+      Desarrollé una aplicación web con Vue, y Bootstrap (frontend) y ASP.NET (backend), que leía los datos desde un PLC y los almacenaba en una base de datos Microsoft SQL Server mediante un servicio Windows.
+      El sistema permite monitoreo remoto en tiempo real mostrando los datos en una interfaz amigable, y responsivo.
   - organization: Independiente
     title: Aplicación de gestión de membresías para gimnasio
     startDate: Octubre 2018
     endDate: Enero 2019
     description: |
-      Desarrollé una aplicación de escritorio en C# para un gimnasio, con funciones de registro de clientes, seguimiento de pagos y gestión de acceso mediante cerradura eléctrica y sensor de huellas.
+      Desarrollé una aplicación de escritorio en C# para un gimnasio, que gestiona clientes, pagos y controla el acceso mediante un candado eléctrico personalizado y un sensor de huellas digitales con DigitalPersona SDK. Utiliza Microsoft SQL Server con Entity Framework para el manejo de datos.
 skills:
   - label: Idiomas
     description: |
       Español: Nativo
       Inglés: B2
   - label: Lenguajes y frameworks
-    description: JavaScript, C#, C++, Java, PHP, Node, React, Vue, Redux, ASP.NET y Laravel.
+    description: Typescript/JavaScript, C#, C++, Kotlin, HTML, CSS, Node.js, React, Redux, y ASP.NET, Bootstrap.
   - label: Bases de datos
-    description: SQL Server, MongoDB y MySQL
+    description: Microsoft SQL Server, MongoDB, PostgreSQL, y MySQL
   - label: Herramientas
-    description: GIT, GitHub Actions, Jira, AWS, GCP, Zoho y OpenApi.
+    description: GIT, GitHub Actions, Dockers, Kubernetes, GraphQL, Jira, AWS, y OpenApi.
   - label: Sistemas embebidos
     description: |
       Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.
