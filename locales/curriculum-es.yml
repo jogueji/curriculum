@@ -87,7 +87,7 @@ projects:
     startDate: Febrero 2023
     endDate: Junio 2023
     description: |
-      Desarrollé una aplicación nativa para Android en Kotlin, integrada con un backend serverless construido con Node.js y MongoDB sobre AWS Lambda. La aplicación se comunica con un microcontrolador Wi-Fi (programado en C++) a través de AWS IoT Core para controlar de forma remota una portón de casa.
+      Desarrollé una aplicación nativa para Android en Kotlin, integrada con un backend serverless construido con Node.js y MongoDB sobre AWS Lambda. La aplicación se comunica con un microcontrolador Wi-Fi (programado en C++) a través de AWS IoT Core usando el protocolo MQTT para controlar de forma remota el portón de la casa.
   - organization: Sustratos de la Ribera
     title: Monitoreo de datos PLC en tiempo real
     startDate: Septiembre 2019
@@ -111,7 +111,7 @@ skills:
   - label: Bases de datos
     description: Microsoft SQL Server, MongoDB, PostgreSQL, y MySQL
   - label: Herramientas
-    description: GIT, GitHub Actions, Dockers, Kubernetes, GraphQL, Jira, AWS, y OpenApi.
+    description: GIT, GitHub Actions, Dockers, Kubernetes, GraphQL, Jira, AWS, OpenApi, y MQTT.
   - label: Sistemas embebidos
     description: |
       Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.
