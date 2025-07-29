@@ -21,10 +21,13 @@ experience:
     startDate: September 2020
     endDate: May 2022
     responsibilities: |
-      - Developed internal TypeScript libraries with a focus on code quality through testing, linting, and readability improvements.
+      - Developed internal Node.js libraries (with Typescript) with a focus on code quality through testing, linting, and readability improvements.
       - Attended scrum team meetings to discuss progress and technical topics.
-      - Worked with cloud platforms like AWS, Azure, GCP, Zoho, among others.
-      - Uploaded code to GitHub repositories, used GitHub Actions to enforce code quality, and integrated static code analysis tools.
+      - Designed and consumed RESTful APIs following microservices principles to support internal and third-party integrations.
+      - Implementation of cloud platforms, with a primary focus on AWS.
+      - Used PostgreSQL for data storage and modeling across various services.
+      - Worked with GraphQL APIs deployed in Docker containers for internal tools and service communication.
+      - Management of GitHub repositories, including the integration of GitHub Actions and static analysis tools to ensure code quality.
   - organization: Sustratos de la Ribera S.A.
     role: Electronic engineer
     startDate: January 2016
@@ -34,6 +37,7 @@ experience:
       - Calibrated sensors and maintained electrical, pneumatic, and hydraulic systems.
       - Diagnosed and resolved automation problems via PLC programming, and system reconfiguration.  
       - Conducted chemical analysis of biogas systems.
+      - Connection of three-phase and single-phase motors to the electrical grid, including installation and configuration of soft starters and variable frequency drives (VFDs).
   - organization: Ingram Micro
     role: Electronic Technician
     startDate: February 2013
@@ -83,31 +87,30 @@ projects:
     startDate: February 2023
     endDate: June 2023
     description: |
-      Developed a native Android app that communicates with a serverless backend on AWS and controls a Wi-Fi microcontroller (programmed in C++) via AWS IoT Core to remotely operate a home gate.
+      Developed a native Android application in Kotlin, integrated with a serverless backend built using Node.js and MongoDB on AWS Lambda. The app communicates with a Wi-Fi microcontroller (programmed in C++) via AWS IoT Core to remotely control a home gate.
   - organization: Sustratos de la Ribera 
     title: Real Time PLC Data Monitoring
     startDate: September 2019
     endDate: December 2019
     description: |
-      Developed a web application with Vue (frontend), and ASP.NET (backend) that read data from a PLC via a windows service.
-      The system enables real time remote monitoring by displaying the data in a user friendly interface.
+      Developed a web application using Vue and Bootstrap(frontend), and ASP.NET with C# (backend). The system retrieved data from a PLC and stored it in a Microsoft SQL Server database through a Windows service. It enables real time remote monitoring, displaying the data in a user friendly and responsive interface.
   - organization: Independent 
     title: Gym Membership Management App
     startDate: October 2018
     endDate: January 2019
     description: |
-      Developed a desktop application in C# for a Gym, its functions are checking customers, tracking payments, and managing customer access through an electric lock and a fingerprint sensor.
+      Developed a C# desktop app for a gym with customer management, payment tracking, and access control via a custom C++ microcontroller lock and a fingerprint sensor using DigitalPersona SDK. Used Microsoft SQL Server with Entity Framework for data management.
 skills:
   - label: Languages
     description: |
       Spanish: Native
       English: B2
   - label: Languages & Frameworks
-    description: JavaScript, C#, C++, Java, PHP, Node, React, Vue, Redux, ASP.NET, and Laravel.
+    description: Typescript/Javascript, C#, C++, Kotlin, HTML, CSS, Node.js, React, Redux, ASP.NET.
   - label: Databases
-    description: SQL Server, MongoDB, and MySQL
+    description: Microsoft SQL Server, MongoDB, PostgreSQL, and MySQL
   - label: Tools
-    description: GIT, GitHub Actions, Jira, AWS, GCP, Zoho, and OpenApi. 
+    description: GIT, GitHub Actions, Dockers, Kubernetes, GraphQL, Jira, AWS, and OpenApi. 
   - label: Embedded Systems
     description: |
       Experienced in programming microcontrollers in C++ and designing PCB layouts using KiCad.

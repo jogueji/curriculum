@@ -75,4 +75,3 @@ function Curriculum() {
 }
 
 export default Curriculum;
-
