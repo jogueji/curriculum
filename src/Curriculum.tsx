@@ -45,9 +45,17 @@ function Curriculum() {
 					<Section title={t('profile')}>
 						<p className= "section-content">{profile}</p>
 					</Section>
+					{skills && <Section title={t('skills')}>
+						<SkillsCard skills={skills} />
+					</Section>}
 					<Section title={t('experience')}>
 						{experience?.map((exp, i: number) => (
         			<ExperienceCard key={i} {...exp} />
+      			))}
+					</Section>
+					<Section title={t('projects')}>
+						{projects?.map((project, i: number) => (
+        			<ProjectCard key={i} {...project} />
       			))}
 					</Section>
 					<Section title={t('education')}>
@@ -60,14 +68,6 @@ function Curriculum() {
         			<EducationCard key={i} {...course} />
       			))}
 					</Section>
-					<Section title={t('projects')}>
-						{projects?.map((project, i: number) => (
-        			<ProjectCard key={i} {...project} />
-      			))}
-					</Section>
-					{skills && <Section title={t('skills')}>
-						<SkillsCard skills={skills} />
-					</Section>}
 				</>
 			)}
     </div>

@@ -10,8 +10,7 @@ function SkillsCard({skills}: SkillsCardProps) {
 		<div className="section-content">
 			{skills.map(({label, description}, i: number) => (
 				<div key= {i} className="skill-content">
-					<h4>{label}:</h4>
-					<p>{description}</p>
+					<p><strong>{label}</strong>: {description}</p>
 				</div>
 			))}
 		</div>

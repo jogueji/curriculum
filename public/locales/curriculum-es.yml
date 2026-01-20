@@ -6,7 +6,22 @@ contactInfo:
   linkedIn:
     url: https://www.linkedin.com/in/jonathan-guerrero-jiménez-787393105/
     label: linkedin.com/in/jonathan-guerrero-jiménez-787393105
-profile: Ingeniero en Software, y Electrónica, con experiencia en desarrollo web, y sistemas automatizados. Apasionado por la automatización y el desarrollo de soluciones eficientes. Excelente trabajando en equipo, y con una mentalidad orientada a resultados. Aprendizaje rápido y adaptable a nuevas tecnologías.
+profile: Ingeniero en Software y Electrónica con experiencia en desarrollo backend, sistemas distribuidos y automatización. Apasionado por crear soluciones eficientes y escalables. Profesional colaborativo, orientado a resultados y con rápida adaptación a nuevas tecnologías.
+skills:
+  - label: Idiomas
+    description: |
+      Español: Nativo & Inglés: B2.
+  - label: Lenguajes y frameworks
+    description: Typescript/JavaScript, C#, C++, Kotlin, ASP.NET, HTML, CSS, Node.js, React, Redux, RTKQuery, MUI, y ServerlessFramework.
+  - label: Bases de datos
+    description: Microsoft SQL Server, MongoDB, PostgreSQL, y MySQL.
+  - label: Herramientas
+    description: GIT, GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Ansible, Terraform, Jenkins, GraphQL, Jira, Scrum, AWS, OpenApi, y MQTT.
+  - label: Operating Systems & Servers
+    description: Linux (CLI, comandos bash), Windows Server, administración básica de servidores y despliegue de aplicaciones.
+  - label: Sistemas embebidos
+    description: |
+      Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.
 experience:
   - organization: Wipro S.A.
     role: Service Desk Analyst
@@ -25,7 +40,7 @@ experience:
       - Asistir a reuniones del equipo Scrum para discutir avances y temas técnicos.
       - Diseño y consumo de RESTful APIs siguiendo principios de microservicios para dar soporte a integraciones internas y de terceros.
       - Implementación de plataformas en la nube, trabajando principalmente con AWS.
-      - Implementación de almacenamiento y modelado de datos con PostgreSQL en distintos servicios distribuidos.
+      - Implementación y gestión de datos con PostgreSQL en distintos servicios.
       - Despliegue de contenedores Docker con APIs GraphQL para herramientas internas y comunicación entre servicios.
       - Gestión de repositorios en GitHub, incluyendo la integración de GitHub Actions y herramientas de análisis estático para garantizar la calidad del código.
   - organization: Sustratos de la Ribera S.A.
@@ -38,6 +53,13 @@ experience:
       - Diagnóstico, y resolución de problemas de automatización mediante programación de PLC y reconfiguración del sistema.
       - Realizar análisis químicos de sistemas de biogás.
       - Conexión de motores trifásicos y monofásicos a la red eléctrica, incluyendo instalación y configuración de arrancadores suaves y variadores de velocidad.
+  #- organization: AGM Automotive
+    #role: Electronic Engineer
+    #startDate: Julio 2015
+    #endDate: Agosto 2015
+    #responsabilities: |
+      #- Realicé la reparación y puesta en marcha de una máquina fuera de servicio, encargada de colocar botones de goma en tarjetas electrónicas.
+        #La máquina funciona con sistemas neumáticos, un PLC que reprogramé completamente y un HMI que también reconfiguré para asegurar su correcto funcionamiento.
   - organization: Ingram Micro
     role: Técnico Electrónico
     startDate: Febrero 2013
@@ -45,6 +67,34 @@ experience:
     responsibilities: |
       - Diagnosticar y reparar hardware de teléfonos celulares.
       - Ensamblar y desensamblar dispositivos y realizar actualizaciones de firmware.
+projects:
+  - organization: Independent
+    title: Beat Midi
+    startDate: Octubre 2023
+    endDate: Enero 2024
+    description: |
+      Aplicación web para aprender batería, desarrollada con React (i18n, React Virtuoso, RTK Query, MUI) y un backend en Node.js usando AWS Lambda (Serverless Framework) y MongoDB.
+      Almacenamiento de archivos en AWS S3 con escaneo de virus mediante ClamAV usando Lambda layers. Demo en vivo: <a href="https://beat-midi.netlify.app/" target="_blank" rel="noopener noreferrer">beat-midi.netlify.app</a>
+  - organization: Independent
+    title: Home Gate Control System
+    startDate: Febrero 2023
+    endDate: Junio 2023
+    description: |
+      Aplicación Android nativa en Kotlin con un backend (Node.js, MongoDB en AWS Lambda).
+      Se comunica con un microcontrolador Wi-Fi (C++) mediante AWS IoT Core usando el protocolo MQTT para controlar un portón residencial.
+  - organization: Sustratos de la Ribera
+    title: Monitoreo de datos PLC en tiempo real
+    startDate: Septiembre 2019
+    endDate: Diciembre 2019
+    description: |
+      Aplicación web desarrollada con Vue y Bootstrap (frontend) y ASP.NET (backend), que lee datos desde un PLC y los almacena en Microsoft SQL Server mediante un servicio de Windows.
+      Permite monitoreo remoto en tiempo real con una interfaz amigable y responsiva.
+  - organization: Independiente
+    title: Aplicación de gestión de membresías para gimnasio
+    startDate: Octubre 2018
+    endDate: Enero 2019
+    description: |
+      Desarrollé una aplicación de escritorio en C# para un gimnasio, que gestiona clientes, pagos y controla el acceso mediante un candado eléctrico personalizado y un sensor de huellas digitales con DigitalPersona SDK. Utiliza Microsoft SQL Server con Entity Framework para el manejo de datos.
 education:
   - institution: Universidad Técnica Nacional
     program: Ingeniería en Software
@@ -57,6 +107,11 @@ education:
     startDate: Enero 2011
     endDate: Noviembre 2015
 courses:
+  - institution: Udemy
+    program: |
+      DevOps para principiantes: Azure DevOps, Docker, Kubernetes, Jenkins, Terraform, Ansible - AWS, Azure & Google Cloud
+    startDate: Junio 2025
+    endDate: Octubre 2025
   - institution: Udemy
     program: React de cero a experto (Hooks y MERN)
     startDate: Febrero 2024
@@ -81,37 +136,3 @@ courses:
     program: 'CCNA Switching & Routing: Introducción a redes'
     startDate: Mayo 2015
     endDate: Agosto 2015
-projects:
-  - organization: Independiente
-    title: Sistema de control de portón residencial
-    startDate: Febrero 2023
-    endDate: Junio 2023
-    description: |
-      Desarrollé una aplicación nativa para Android en Kotlin, integrada con un backend serverless construido con Node.js y MongoDB sobre AWS Lambda. La aplicación se comunica con un microcontrolador Wi-Fi (programado en C++) a través de AWS IoT Core usando el protocolo MQTT para controlar de forma remota el portón de la casa.
-  - organization: Sustratos de la Ribera
-    title: Monitoreo de datos PLC en tiempo real
-    startDate: Septiembre 2019
-    endDate: Diciembre 2019
-    description: |
-      Desarrollé una aplicación web con Vue, y Bootstrap (frontend) y ASP.NET (backend), que leía los datos desde un PLC y los almacenaba en una base de datos Microsoft SQL Server mediante un servicio Windows.
-      El sistema permite monitoreo remoto en tiempo real mostrando los datos en una interfaz amigable, y responsivo.
-  - organization: Independiente
-    title: Aplicación de gestión de membresías para gimnasio
-    startDate: Octubre 2018
-    endDate: Enero 2019
-    description: |
-      Desarrollé una aplicación de escritorio en C# para un gimnasio, que gestiona clientes, pagos y controla el acceso mediante un candado eléctrico personalizado y un sensor de huellas digitales con DigitalPersona SDK. Utiliza Microsoft SQL Server con Entity Framework para el manejo de datos.
-skills:
-  - label: Idiomas
-    description: |
-      Español: Nativo
-      Inglés: B2
-  - label: Lenguajes y frameworks
-    description: Typescript/JavaScript, C#, C++, Kotlin, HTML, CSS, Node.js, React, Redux, y ASP.NET, Bootstrap.
-  - label: Bases de datos
-    description: Microsoft SQL Server, MongoDB, PostgreSQL, y MySQL
-  - label: Herramientas
-    description: GIT, GitHub Actions, Dockers, Kubernetes, GraphQL, Jira, AWS, OpenApi, y MQTT.
-  - label: Sistemas embebidos
-    description: |
-      Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.

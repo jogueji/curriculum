@@ -26,9 +26,8 @@ function ProjectCard({
           endDate={endDate}
 				/>
 			</div>
-			<p>{description}</p>
-		</div>
-		
+			<p dangerouslySetInnerHTML={{ __html: description }} />
+		</div>	
   )
 }
 

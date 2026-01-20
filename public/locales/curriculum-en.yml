@@ -7,6 +7,21 @@ contactInfo:
     url: https://www.linkedin.com/in/jonathan-guerrero-jiménez-787393105/
     label: linkedin.com/in/jonathan-guerrero-jiménez-787393105
 profile: Software, and Electronic Engineer with experience in web development, and automated systems. Passionate about automation and developing efficient solutions. A collaborative profesional with a results-oriented mindset. Quick to learn and adaptable to new technologies.
+skills:
+  - label: Languages
+    description: |
+      Spanish: Native & English: B2
+  - label: Languages & Frameworks
+    description: Typescript/Javascript, C#, C++, Kotlin, ASP.NET, HTML, CSS, Node.js, React, Redux, RTKQuery, ServerlessFramework.
+  - label: Databases
+    description: Microsoft SQL Server, MongoDB, PostgreSQL, and MySQL.
+  - label: Tools
+    description: GIT, GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Ansible, Terraform, Jenkins, GraphQL, Jira, Scrum, AWS, OpenApi, and MQTT.
+  - label: Operating Systems & Servers
+    description: Linux (CLI, bash commands), Windows Server, basic server administration and deployment.
+  - label: Embedded Systems
+    description: |
+      Experienced in programming microcontrollers in C++ and designing PCB layouts using KiCad.
 experience:
   - organization: Wipro S.A.
     role: Service Desk Analyst
@@ -38,6 +53,13 @@ experience:
       - Diagnosed and resolved automation problems via PLC programming, and system reconfiguration.  
       - Conducted chemical analysis of biogas systems.
       - Connection of three-phase and single-phase motors to the electrical grid, including installation and configuration of soft starters and variable frequency drives (VFDs).
+  #- organization: AGM Automotive
+    #role: Electronic Engineer
+    #startDate: July 2015
+    #endDate: August 2015
+    #responsabilities: |
+      #- I carried out the repair and commissioning of an out-of-service machine responsible for placing rubber buttons onto electronic boards.
+        #The machine operates with pneumatic systems, a PLC which I fully reprogrammed, and an HMI that I also reconfigured to ensure proper operation.
   - organization: Ingram Micro
     role: Electronic Technician
     startDate: February 2013
@@ -45,6 +67,34 @@ experience:
     responsibilities: |
       - Diagnosed and repaired cellphones hardware.  
       - Assembled and disassembled devices and performed firmware updates.
+projects:
+  - organization: Independent
+    title: Beat Midi
+    startDate: October 2023
+    endDate: January 2024
+    description: |
+      Web application for learning drums, built with React (i18n, React Virtuoso, RTK Query, MUI) and a Node.js backend using AWS Lambda (Serverless Framework) and MongoDB.
+      AWS S3 file storage with virus scanning using ClamAV via Lambda layers.
+      Live demo: <a href="https://beat-midi.netlify.app/" target="_blank" rel="noopener noreferrer">beat-midi.netlify.app</a>
+  - organization: Independent 
+    title: Home Gate Control System
+    startDate: February 2023
+    endDate: June 2023
+    description: |
+      Native Android app in Kotlin with a serverless backend (Node.js, MongoDB on AWS Lambda).
+      Communicates with a Wi-Fi microcontroller (C++) via AWS IoT Core using MQTT to control a home gate.
+  - organization: Sustratos de la Ribera 
+    title: Real Time PLC Data Monitoring
+    startDate: September 2019
+    endDate: December 2019
+    description: |
+      Developed a web application using Vue and Bootstrap(frontend), and ASP.NET with C# (backend). The system retrieved data from a PLC and stored it in a Microsoft SQL Server database through a Windows service. It enables real time remote monitoring, displaying the data in a user friendly and responsive interface.
+  - organization: Independent 
+    title: Gym Membership Management App
+    startDate: October 2018
+    endDate: January 2019
+    description: |
+      Developed a C# desktop app for a gym with customer management, payment tracking, and access control via a custom C++ microcontroller lock and a fingerprint sensor using DigitalPersona SDK. Used Microsoft SQL Server with Entity Framework for data management.
 education:
   - institution: Universidad Técnica Nacional
     program: Software Engineer
@@ -57,6 +107,11 @@ education:
     startDate: January 2011
     endDate: November 2015
 courses:
+  - institution: Udemy
+    program: |
+      DevOps for Absolute Beginners: Azure DevOps, Docker, Kubernetes, Jenkins, Terraform, Ansible - AWS, Azure & Google Cloud
+    startDate: June 2025
+    endDate: October 2025
   - institution: Udemy
     program: React From Zero to Expert (Hooks and MERN)
     startDate: February 2024
@@ -81,36 +136,3 @@ courses:
     program: 'CCNA Switching & Routing: Network Introduction'
     startDate: May 2015
     endDate: August 2015
-projects:
-  - organization: Independent 
-    title: Home Gate Control System
-    startDate: February 2023
-    endDate: June 2023
-    description: |
-      Developed a native Android application in Kotlin, integrated with a serverless backend using Node.js and MongoDB on AWS Lambda. The app communicates with a Wi-Fi microcontroller (programmed in C++) via AWS IoT Core using MQTT protocol to remotely control a home gate.
-  - organization: Sustratos de la Ribera 
-    title: Real Time PLC Data Monitoring
-    startDate: September 2019
-    endDate: December 2019
-    description: |
-      Developed a web application using Vue and Bootstrap(frontend), and ASP.NET with C# (backend). The system retrieved data from a PLC and stored it in a Microsoft SQL Server database through a Windows service. It enables real time remote monitoring, displaying the data in a user friendly and responsive interface.
-  - organization: Independent 
-    title: Gym Membership Management App
-    startDate: October 2018
-    endDate: January 2019
-    description: |
-      Developed a C# desktop app for a gym with customer management, payment tracking, and access control via a custom C++ microcontroller lock and a fingerprint sensor using DigitalPersona SDK. Used Microsoft SQL Server with Entity Framework for data management.
-skills:
-  - label: Languages
-    description: |
-      Spanish: Native
-      English: B2
-  - label: Languages & Frameworks
-    description: Typescript/Javascript, C#, C++, Kotlin, HTML, CSS, Node.js, React, Redux, ASP.NET.
-  - label: Databases
-    description: Microsoft SQL Server, MongoDB, PostgreSQL, and MySQL
-  - label: Tools
-    description: GIT, GitHub Actions, Dockers, Kubernetes, GraphQL, Jira, AWS, OpenApi, and MQTT. 
-  - label: Embedded Systems
-    description: |
-      Experienced in programming microcontrollers in C++ and designing PCB layouts using KiCad.
