@@ -10,18 +10,23 @@ profile: Ingeniero en Software y Electrónica con experiencia en desarrollo back
 skills:
   - label: Idiomas
     description: |
-      Español: Nativo & Inglés: B2.
+      Español (Nativo) & Inglés (B2).
   - label: Lenguajes y frameworks
-    description: Typescript/JavaScript, C#, C++, Kotlin, ASP.NET, HTML, CSS, Node.js, React, Redux, RTKQuery, MUI, y ServerlessFramework.
+    description: Typescript/JavaScript, C#, C++, Kotlin, XAML, ASP.NET, HTML, CSS, Node.js, GraphQL, Express, EntityFramework, React, Redux, RTKQuery, MUI, i18n, y ServerlessFramework.
   - label: Bases de datos
-    description: Microsoft SQL Server, MongoDB, PostgreSQL, y MySQL.
+    description: Microsoft SQL Server, MongoDB, PostgreSQL, MySQL y DynamoDB.
   - label: Herramientas
-    description: GIT, GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Ansible, Terraform, Jenkins, GraphQL, Jira, Scrum, AWS, OpenApi, y MQTT.
+    description: GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Jira, Scrum, AWS, OpenApi, y MQTT.
   - label: Operating Systems & Servers
     description: Linux (CLI, comandos bash), Windows Server, administración básica de servidores y despliegue de aplicaciones.
-  - label: Sistemas embebidos
-    description: |
-      Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.
+  - label: Metodologías y Gestión
+    description: Scrum, Kanban, Jira, Git/GitHub.
+  #- label: Sistemas embebidos
+    #description: |
+      #Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.
+  #- label: SCADA y Automatización Industrial
+    #description: |
+      #Programación de PLC, sistemas de SCADA, protocolos MODBUS, y OPCUA, desarrollo de interfaces HMI, integración de sensores industriales y sistemas de control de motores.
 experience:
   - organization: Wipro S.A.
     role: Service Desk Analyst
@@ -53,13 +58,13 @@ experience:
       - Diagnóstico, y resolución de problemas de automatización mediante programación de PLC y reconfiguración del sistema.
       - Realizar análisis químicos de sistemas de biogás.
       - Conexión de motores trifásicos y monofásicos a la red eléctrica, incluyendo instalación y configuración de arrancadores suaves y variadores de velocidad.
+    #- Operación de una caldera industrial a través del sistema SCADA, utilizando una conexión MODBUS implementada por mí.
   #- organization: AGM Automotive
-    #role: Electronic Engineer
+    #role: Ingeniero Electrónico (práctica laboral)
     #startDate: Julio 2015
     #endDate: Agosto 2015
-    #responsabilities: |
-      #- Realicé la reparación y puesta en marcha de una máquina fuera de servicio, encargada de colocar botones de goma en tarjetas electrónicas.
-        #La máquina funciona con sistemas neumáticos, un PLC que reprogramé completamente y un HMI que también reconfiguré para asegurar su correcto funcionamiento.
+    #responsibilities: |
+      #Llevé a cabo la reparación y puesta en marcha de una máquina fuera de servicio para la colocación de botones de goma en tarjetas electrónicas, incluyendo la reprogramación completa del PLC y la reconfiguración del HMI, garantizando su correcta operación.
   - organization: Ingram Micro
     role: Técnico Electrónico
     startDate: Febrero 2013
@@ -70,10 +75,10 @@ experience:
 projects:
   - organization: Independent
     title: Beat Midi
-    startDate: Octubre 2023
-    endDate: Enero 2024
+    startDate: Octubre 2024
+    endDate: Enero 2025
     description: |
-      Aplicación web para aprender batería, desarrollada con React (i18n, React Virtuoso, RTK Query, MUI) y un backend en Node.js usando AWS Lambda (Serverless Framework) y MongoDB.
+      Aplicación web para aprender batería, desarrollada con React (i18n, React Virtuoso, RTK Query, MUI) y un backend en Node.js mediante AWS Lambda (Serverless Framework) y MongoDB.
       Almacenamiento de archivos en AWS S3 con escaneo de virus mediante ClamAV usando Lambda layers. Demo en vivo: <a href="https://beat-midi.netlify.app/" target="_blank" rel="noopener noreferrer">beat-midi.netlify.app</a>
   - organization: Independent
     title: Home Gate Control System
@@ -87,14 +92,13 @@ projects:
     startDate: Septiembre 2019
     endDate: Diciembre 2019
     description: |
-      Aplicación web desarrollada con Vue y Bootstrap (frontend) y ASP.NET (backend), que lee datos desde un PLC y los almacena en Microsoft SQL Server mediante un servicio de Windows.
-      Permite monitoreo remoto en tiempo real con una interfaz amigable y responsiva.
+      Desarrollo de una aplicación web utilizando Vue y Bootstrap (frontend), con un backend en ASP.NET (C#). Implementación de un servicio de Windows para la captura continua de datos desde un PLC a través de una DLL, centralizando la información en una base de datos Microsoft SQL Server. El sistema permite el monitoreo remoto en tiempo real mediante una interfaz web intuitiva y responsiva.
   - organization: Independiente
     title: Aplicación de gestión de membresías para gimnasio
     startDate: Octubre 2018
     endDate: Enero 2019
     description: |
-      Desarrollé una aplicación de escritorio en C# para un gimnasio, que gestiona clientes, pagos y controla el acceso mediante un candado eléctrico personalizado y un sensor de huellas digitales con DigitalPersona SDK. Utiliza Microsoft SQL Server con Entity Framework para el manejo de datos.
+      Desarrollé una aplicación de escritorio en C# para un gimnasio, que gestiona clientes, pagos y un control de acceso mediante un cierre controlado por microcontrolador basado en C++, y un sensor de huellas digitales con DigitalPersona SDK. Utiliza Microsoft SQL Server con Entity Framework para el manejo de datos.
 education:
   - institution: Universidad Técnica Nacional
     program: Ingeniería en Software
