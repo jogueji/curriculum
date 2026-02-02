@@ -6,22 +6,27 @@ contactInfo:
   linkedIn:
     url: https://www.linkedin.com/in/jonathan-guerrero-jiménez-787393105/
     label: linkedin.com/in/jonathan-guerrero-jiménez-787393105
-profile: Software, and Electronic Engineer with experience in web development, and automated systems. Passionate about automation and developing efficient solutions. A collaborative profesional with a results-oriented mindset. Quick to learn and adaptable to new technologies.
+profile: Software, and Electronic Engineer with experience in web development, and automated systems. Passionate about automation and developing efficient solutions. A collaborative professional with a results-oriented mindset. Quick to learn and adaptable to new technologies.
 skills:
   - label: Languages
     description: |
-      Spanish: Native & English: B2
+      Spanish (Native), English (B2)
   - label: Languages & Frameworks
-    description: Typescript/Javascript, C#, C++, Kotlin, ASP.NET, HTML, CSS, Node.js, React, Redux, RTKQuery, ServerlessFramework.
+    description: TypeScript/JavaScript, C#, C++, Kotlin, XAML, ASP.NET, HTML, CSS, Node.js, Express, GraphQL, EntityFramework, React, Redux, RTKQuery, MUI, i18n, and ServerlessFramework.
   - label: Databases
-    description: Microsoft SQL Server, MongoDB, PostgreSQL, and MySQL.
+    description: Microsoft SQL Server, MongoDB, PostgreSQL, MySQL, and DynamoDB.
   - label: Tools
-    description: GIT, GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Ansible, Terraform, Jenkins, GraphQL, Jira, Scrum, AWS, OpenApi, and MQTT.
+    description: GIT, GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Jira, Scrum, AWS, OpenApi, and MQTT.
   - label: Operating Systems & Servers
-    description: Linux (CLI, bash commands), Windows Server, basic server administration and deployment.
-  - label: Embedded Systems
-    description: |
-      Experienced in programming microcontrollers in C++ and designing PCB layouts using KiCad.
+    description: Linux (CLI, Bash commands), Windows Server, basic server administration and deployment.
+  - label: Methodologies & Management
+    description: Scrum, Kanban, Jira, Git/GitHub.
+  #- label: Embedded Systems
+    #description: |
+      #Experienced in programming microcontrollers in C++ and designing PCB layouts using KiCad.
+  #- label: SCADA & Industrial Automation
+    #description: |
+      #PLC programming, SCADA systems, MODBUS and OPCUA protocols, HMI development, industrial sensor integration, and motor control systems.
 experience:
   - organization: Wipro S.A.
     role: Service Desk Analyst
@@ -50,16 +55,17 @@ experience:
     responsibilities: |
       - Monitored and controlled the operation of automated biodigester systems to ensure optimal performance.
       - Calibrated sensors and maintained electrical, pneumatic, and hydraulic systems.
-      - Diagnosed and resolved automation problems via PLC programming, and system reconfiguration.  
+      - Diagnosed and resolved automation problems via PLC programming, and system reconfiguration.
       - Conducted chemical analysis of biogas systems.
       - Connection of three-phase and single-phase motors to the electrical grid, including installation and configuration of soft starters and variable frequency drives (VFDs).
+    #- Operated an industrial boiler through a SCADA system via a MODBUS connection implemented by me.
   #- organization: AGM Automotive
-    #role: Electronic Engineer
+    #role: Electronic Engineer (Internship)
     #startDate: July 2015
     #endDate: August 2015
-    #responsabilities: |
-      #- I carried out the repair and commissioning of an out-of-service machine responsible for placing rubber buttons onto electronic boards.
-        #The machine operates with pneumatic systems, a PLC which I fully reprogrammed, and an HMI that I also reconfigured to ensure proper operation.
+    #responsibilities: |
+      #Carried out the repair and commissioning of an out-of-service machine responsible for placing rubber buttons onto electronic boards.
+      #The machine operates with pneumatic systems, a PLC that was fully reprogrammed, and an HMI that was reconfigured to ensure proper operation.
   - organization: Ingram Micro
     role: Electronic Technician
     startDate: February 2013
@@ -70,10 +76,10 @@ experience:
 projects:
   - organization: Independent
     title: Beat Midi
-    startDate: October 2023
-    endDate: January 2024
+    startDate: October 2024
+    endDate: January 2025
     description: |
-      Web application for learning drums, built with React (i18n, React Virtuoso, RTK Query, MUI) and a Node.js backend using AWS Lambda (Serverless Framework) and MongoDB.
+      A web application for learning drums, built with React (i18n, React Virtuoso, RTK Query, MUI) and a Node.js backend using AWS Lambda (Serverless Framework) and MongoDB.
       AWS S3 file storage with virus scanning using ClamAV via Lambda layers.
       Live demo: <a href="https://beat-midi.netlify.app/" target="_blank" rel="noopener noreferrer">beat-midi.netlify.app</a>
   - organization: Independent 
@@ -88,13 +94,13 @@ projects:
     startDate: September 2019
     endDate: December 2019
     description: |
-      Developed a web application using Vue and Bootstrap(frontend), and ASP.NET with C# (backend). The system retrieved data from a PLC and stored it in a Microsoft SQL Server database through a Windows service. It enables real time remote monitoring, displaying the data in a user friendly and responsive interface.
+      Developed a web application using Vue and Bootstrap (frontend), and ASP.NET with C# (backend). A Windows service running continuously in the background retrieved data from a PLC through a third-party DLL and stored it in a Microsoft SQL Server database. The system enables real-time remote monitoring through a user-friendly and responsive web interface.
   - organization: Independent 
     title: Gym Membership Management App
     startDate: October 2018
     endDate: January 2019
     description: |
-      Developed a C# desktop app for a gym with customer management, payment tracking, and access control via a custom C++ microcontroller lock and a fingerprint sensor using DigitalPersona SDK. Used Microsoft SQL Server with Entity Framework for data management.
+      Developed a C# desktop application for a gym with customer management, payment tracking, and access control via a custom C++ microcontroller-based lock, communicating over a serial interface, and a fingerprint sensor using the DigitalPersona SDK. Used Microsoft SQL Server with Entity Framework for data management.
 education:
   - institution: Universidad Técnica Nacional
     program: Software Engineer
