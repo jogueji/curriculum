@@ -11,22 +11,22 @@ skills:
   - label: Idiomas
     description: |
       Español (Nativo) & Inglés (B2).
-  - label: Lenguajes y frameworks
-    description: Typescript/JavaScript, C#, C++, Kotlin, XAML, ASP.NET, HTML, CSS, Node.js, GraphQL, Express, EntityFramework, React, Redux, RTKQuery, MUI, i18n, y ServerlessFramework.
+  - label: Lenguajes de programación y marcado
+    description: TypeScript/JavaScript, C#, C++, Kotlin, Python, HTML y XAML.
+  - label: Frameworks, librerías y runtimes
+    description: ASP.NET, Django, Node.js, Express, GraphQL, Entity Framework, React, Redux, RTK Query, MUI, Tailwind CSS, i18n y Serverless Framework.
   - label: Bases de datos
     description: Microsoft SQL Server, MongoDB, PostgreSQL, MySQL y DynamoDB.
-  - label: Herramientas
-    description: GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Jira, Scrum, AWS, OpenApi, y MQTT.
-  - label: Operating Systems & Servers
+  - label: DevOps y Cloud
+    description: GitHub Actions, Terraform, CI/CD pipelines, Jenkins, Ansible, AWS, Azure, Kubernetes, Docker y OpenAPI.
+  - label: Sistemas operativos y servidores
     description: Linux (CLI, comandos bash), Windows Server, administración básica de servidores y despliegue de aplicaciones.
   - label: Metodologías y Gestión
-    description: Scrum, Kanban, Jira, Git/GitHub.
+    description: Scrum, Kanban, Jira y Git/GitHub.
   #- label: Sistemas embebidos
-    #description: |
-      #Experiencia en programación de microcontroladores en C++, y diseño de circuitos impresos (PCB) utilizando KiCad.
-  #- label: SCADA y Automatización Industrial
-    #description: |
-      #Programación de PLC, sistemas de SCADA, protocolos MODBUS, y OPCUA, desarrollo de interfaces HMI, integración de sensores industriales y sistemas de control de motores.
+    #description: Microcontroladores (C++), diseño de PCBs (KiCad) y MQTT.
+  #- label: Automatización Industrial
+    #description: Programación de PLC, sistemas SCADA, protocolos MODBUS y OPCUA, desarrollo de HMI, integración de sensores industriales y control de motores.
 experience:
   - organization: Wipro S.A.
     role: Service Desk Analyst
@@ -35,7 +35,7 @@ experience:
     responsibilities: |
       - Soporte TI para sitios web, aplicaciones de escritorio, contraseñas y credenciales.
       - Soporte telefónico bilingüe (español e inglés) a empleados de Citi.
-      - Aprendizaje continuo de nuevas tecnologías, plataformas, y herramientas internas.
+      - Aprendizaje continuo de nuevas tecnologías, plataformas y herramientas internas.
   - organization: Auditmation
     role: Desarrollador Backend
     startDate: Septiembre 2020
@@ -54,8 +54,8 @@ experience:
     endDate: Septiembre 2020
     responsibilities: |
       - Monitoreo y control de la operación de sistemas automatizados de un biodigestor para asegurar rendimiento óptimo.
-      - Calibración de sensores, y mantenimiento de sistemas eléctricos, neumáticos e hidráulicos.
-      - Diagnóstico, y resolución de problemas de automatización mediante programación de PLC y reconfiguración del sistema.
+      - Calibración de sensores y mantenimiento de sistemas eléctricos, neumáticos e hidráulicos.
+      - Diagnóstico y resolución de problemas de automatización mediante programación de PLC y reconfiguración del sistema.
       - Realizar análisis químicos de sistemas de biogás.
       - Conexión de motores trifásicos y monofásicos a la red eléctrica, incluyendo instalación y configuración de arrancadores suaves y variadores de velocidad.
     #- Operación de una caldera industrial a través del sistema SCADA, utilizando una conexión MODBUS implementada por mí.
@@ -73,14 +73,14 @@ experience:
       - Diagnosticar y reparar hardware de teléfonos celulares.
       - Ensamblar y desensamblar dispositivos y realizar actualizaciones de firmware.
 projects:
-  - organization: Independent
+  - organization: Independiente
     title: Beat Midi
     startDate: Octubre 2024
     endDate: Enero 2025
     description: |
       Aplicación web para aprender batería, desarrollada con React (i18n, React Virtuoso, RTK Query, MUI) y un backend en Node.js mediante AWS Lambda (Serverless Framework) y MongoDB.
       Almacenamiento de archivos en AWS S3 con escaneo de virus mediante ClamAV usando Lambda layers. Demo en vivo: <a href="https://beat-midi.netlify.app/" target="_blank" rel="noopener noreferrer">beat-midi.netlify.app</a>
-  - organization: Independent
+  - organization: Independiente
     title: Home Gate Control System
     startDate: Febrero 2023
     endDate: Junio 2023
@@ -98,7 +98,7 @@ projects:
     startDate: Octubre 2018
     endDate: Enero 2019
     description: |
-      Desarrollé una aplicación de escritorio en C# para un gimnasio, que gestiona clientes, pagos y un control de acceso mediante un cierre controlado por microcontrolador basado en C++, y un sensor de huellas digitales con DigitalPersona SDK. Utiliza Microsoft SQL Server con Entity Framework para el manejo de datos.
+      Desarrollé una aplicación de escritorio en C# para un gimnasio, que gestiona clientes, pagos y un control de acceso mediante un cierre controlado por microcontrolador basado en C++ y un sensor de huellas digitales con DigitalPersona SDK. Utiliza Microsoft SQL Server con Entity Framework para el manejo de datos.
 education:
   - institution: Universidad Técnica Nacional
     program: Ingeniería en Software
