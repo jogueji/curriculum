@@ -6,27 +6,27 @@ contactInfo:
   linkedIn:
     url: https://www.linkedin.com/in/jonathan-guerrero-jiménez-787393105/
     label: linkedin.com/in/jonathan-guerrero-jiménez-787393105
-profile: Software, and Electronic Engineer with experience in web development, and automated systems. Passionate about automation and developing efficient solutions. A collaborative professional with a results-oriented mindset. Quick to learn and adaptable to new technologies.
+profile: Software and Electronic Engineer with experience in web development and automated systems. Passionate about automation and developing efficient solutions. A collaborative professional with a results-oriented mindset. Quick to learn and adaptable to new technologies.
 skills:
   - label: Languages
     description: |
-      Spanish (Native), English (B2)
-  - label: Languages & Frameworks
-    description: TypeScript/JavaScript, C#, C++, Kotlin, XAML, ASP.NET, HTML, CSS, Node.js, Express, GraphQL, EntityFramework, React, Redux, RTKQuery, MUI, i18n, and ServerlessFramework.
+      Spanish (Native) & English (B2)
+  - label: Programming & Markup Languages
+    description: TypeScript/JavaScript, C#, C++, Kotlin, Python, HTML, and XAML.
+  - label: Frameworks, Libraries & Runtimes
+    description: ASP.NET, Django, Node.js, Express, GraphQL, Entity Framework, React, Redux, RTK Query, MUI, Tailwind CSS, i18n, and Serverless Framework.
   - label: Databases
     description: Microsoft SQL Server, MongoDB, PostgreSQL, MySQL, and DynamoDB.
-  - label: Tools
-    description: GIT, GitHub Actions, CI/CD pipelines, Dockers, Kubernetes, Jira, Scrum, AWS, OpenApi, and MQTT.
+  - label: DevOps & Cloud
+    description: GitHub Actions, Terraform, CI/CD pipelines, Jenkins, Ansible, AWS, Azure, Kubernetes, Docker, and OpenAPI.
   - label: Operating Systems & Servers
     description: Linux (CLI, Bash commands), Windows Server, basic server administration and deployment.
   - label: Methodologies & Management
-    description: Scrum, Kanban, Jira, Git/GitHub.
+    description: Scrum, Kanban, Jira, and Git/GitHub.
   #- label: Embedded Systems
-    #description: |
-      #Experienced in programming microcontrollers in C++ and designing PCB layouts using KiCad.
-  #- label: SCADA & Industrial Automation
-    #description: |
-      #PLC programming, SCADA systems, MODBUS and OPCUA protocols, HMI development, industrial sensor integration, and motor control systems.
+    #description: Microcontrollers (C++), PCB design (KiCad), and MQTT.
+  #- label: Industrial Automation
+    #description: PLC programming, SCADA systems, MODBUS and OPCUA protocols, HMI development, industrial sensor integration, and motor control systems.
 experience:
   - organization: Wipro S.A.
     role: Service Desk Analyst
@@ -41,7 +41,7 @@ experience:
     startDate: September 2020
     endDate: May 2022
     responsibilities: |
-      - Developed internal Node.js libraries (with Typescript) with a focus on code quality through testing, linting, and readability improvements.
+      - Developed internal Node.js libraries (with TypeScript) with a focus on code quality through testing, linting, and readability improvements.
       - Attended scrum team meetings to discuss progress and technical topics.
       - Designed and consumed RESTful APIs following microservices principles to support internal and third-party integrations.
       - Implementation of cloud platforms, with a primary focus on AWS.
@@ -82,20 +82,20 @@ projects:
       A web application for learning drums, built with React (i18n, React Virtuoso, RTK Query, MUI) and a Node.js backend using AWS Lambda (Serverless Framework) and MongoDB.
       AWS S3 file storage with virus scanning using ClamAV via Lambda layers.
       Live demo: <a href="https://beat-midi.netlify.app/" target="_blank" rel="noopener noreferrer">beat-midi.netlify.app</a>
-  - organization: Independent 
+  - organization: Independent
     title: Home Gate Control System
     startDate: February 2023
     endDate: June 2023
     description: |
       Native Android app in Kotlin with a serverless backend (Node.js, MongoDB on AWS Lambda).
       Communicates with a Wi-Fi microcontroller (C++) via AWS IoT Core using MQTT to control a home gate.
-  - organization: Sustratos de la Ribera 
+  - organization: Sustratos de la Ribera
     title: Real Time PLC Data Monitoring
     startDate: September 2019
     endDate: December 2019
     description: |
       Developed a web application using Vue and Bootstrap (frontend), and ASP.NET with C# (backend). A Windows service running continuously in the background retrieved data from a PLC through a third-party DLL and stored it in a Microsoft SQL Server database. The system enables real-time remote monitoring through a user-friendly and responsive web interface.
-  - organization: Independent 
+  - organization: Independent
     title: Gym Membership Management App
     startDate: October 2018
     endDate: January 2019
